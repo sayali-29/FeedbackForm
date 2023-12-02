@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form  for Hotel</h1>
+    <form action="/submit" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="question_1">1. Overall Hotel Satisfacation:</label>
+        <div><input type="radio" name="question_1" value="5">5</div>
+        <div><input type="radio" name="question_1" value="4">4</div>
+        <div><input type="radio" name="question_1" value="3">3</div>
+        <div><input type="radio" name="question_1" value="2">2</div>
+        <div><input type="radio" name="question_1" value="1">1</div>
+        <br><br>
+
+        <label for="question_2">2. Please rate your overall experience during your stay at our hotel:</label>
+        <div><input type="radio" name="question_2" value="Excellent">Excellent</div>
+        <div><input type="radio" name="question_2" value="Good">Good</div>
+        <div><input type="radio" name="question_2" value="Average">Average</div>
+        <div><input type="radio" name="question_2" value="Fair">Fair</div>
+        <div><input type="radio" name="question_2" value="Poor">Poor</div>
+        <br><br>
+
+        <label for="question_3">3. How satisfied were you with the cleanliness and condition of your room?</label>
+        <div><input type="radio" name="question_3" value="Very satisfied">Very satisfied</div>
+        <div><input type="radio" name="question_3" value="satisfied">satisfied</div>
+        <div><input type="radio" name="question_3" value="Neutral">Neutral</div>
+        <div><input type="radio" name="question_3" value="Dissatisfied">Dissatisfied</div>
+        <div><input type="radio" name="question_3" value="Very Dissatisfied">Very Dissatisfied</div>
+        <br><br>
+
+        <label for="question_4">4. How would you rate the quality of food and beverages offered at our hotel?</label>
+        <div><input type="radio" name="question_4" value="Excellent">Excellent</div>
+        <div><input type="radio" name="question_4" value="Very Good">Very Good</div>
+        <div><input type="radio" name="question_4" value="Good">Good</div>
+        <div><input type="radio" name="question_4" value="Fair">Fair</div>
+        <div><input type="radio" name="question_4" value="Poor">Poor</div>
+        <br><br>
+
+        <label for="question_5">5. Suggestion for Improvement:</label>
+        <div>
+            <input type="text" name="question_5" value=""><br><br>
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
